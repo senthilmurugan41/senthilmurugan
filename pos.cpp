@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-    int a;
-    cin>>a;
-    if(a>0)
+   int number;
+    cin>>number;
+    if(number>0)
         cout<<"Positive";
-    else if(a<0)
+    else if(number<0)
         cout<<"Negative";
     else
         cout<<"Zero";

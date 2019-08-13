@@ -6,7 +6,7 @@ int main()
    cin>>n;
    if(n<0)
      cout<<"invalid";
-   if(n%2==0)
+   else if(n%2==0)
       cout<<"Even";
    else
        cout<<"Odd";

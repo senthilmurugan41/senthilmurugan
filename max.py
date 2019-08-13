@@ -1,2 +1,2 @@
-n=map(int,input().split())
-print(max(n))
+nu=map(int,input().split())
+print(max(nu))

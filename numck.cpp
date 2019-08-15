@@ -4,10 +4,10 @@
 using namespace std;
 int main()
 {
-  char a[1000];
+  string a;
   int flag=0;
-  gets(a);
-  for(int i=0;i<strlen(a);i++)
+  cin>>a;
+  for(int i=0;i<a.length();i++)
   {
       if(isalpha(a[i]))
         flag=1;

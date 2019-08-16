@@ -8,8 +8,9 @@ int main()
     {
         if((n%10)*2==0||(n%10)*2==2)
            flag=1;
-        else
+        else{
             flag=0;
+            break;}
         n=n/10;
     }
     if(flag!=0)
